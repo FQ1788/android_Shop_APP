@@ -39,7 +39,6 @@ public class UrlLinkTool extends Thread {
         HttpURLConnection conn = null;
         InputStream is = null;
         URL Server;
-        //url = "http://10.0.2.2:8080/ProjectDemo/DemoTest?"+url;
         System.out.println(url);
         try {
             Server = new URL(url);
