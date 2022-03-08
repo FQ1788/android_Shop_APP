@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         String inName = ((TextView) findViewById(R.id.InUserNameID)).getText().toString();
         String inPass = ((TextView) findViewById(R.id.InUserPassID)).getText().toString();
         ProgressBar loadBar = findViewById(R.id.loadBarID);
-        String url = "http://SERVER?userName=" + inName + "&userPass=" + inPass;
+        String url = Server+"?userName=" + inName + "&userPass=" + inPass;
         UrlLinkTool linkTool = new UrlLinkTool(url);
         linkTool.OnServerAnswerListener = new UrlLinkTool.NetEventListener() {
             @Override
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
      * 取得所有商品資料的方法
      */
     public void getData() {
-        UrlLinkTool linkTool = new UrlLinkTool("http://10.0.2.2:8080/ProjectDemo/DemoTest?state=getData");
+        UrlLinkTool linkTool = new UrlLinkTool(Server);
         linkTool.OnServerAnswerListener = new UrlLinkTool.NetEventListener() {
             @Override
             public void linkStart() {
