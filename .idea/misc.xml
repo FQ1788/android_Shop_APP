@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/drawable/button_color.xml" value="0.1" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/activity_load.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/activity_main.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/com_style2.xml" value="0.125" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/comalldata.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/comdata.xml" value="0.25" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/comlayout.xml" value="0.125" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/comstyle.xml" value="0.125" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_add_user.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_checkout.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_com_all_data.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_com_data.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_login.xml" value="0.2735519888346127" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_order_history.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_user_center.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/fragment_user_data.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/order_data_style.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/layout/user_data.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/student/Desktop/Feast_Test0301/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/drawable/select_shop.xml" value="0.1665" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/activity_load.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/add_user.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/checkout.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/com_style2.xml" value="0.33" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/comalldata.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/comlayout.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/comstyle.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_checkout.xml" value="0.1838768115942029" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_com_all_data.xml" value="0.2" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_com_data.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_login.xml" value="0.1838768115942029" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_order_history.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_user_center.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/fragment_user_data.xml" value="0.1838768115942029" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/item_page.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/order_data_style.xml" value="0.33" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/user_center.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/layout/user_data.xml" value="0.15307971014492755" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/menu/nav_menu.xml" value="0.2682291666666667" />
+        <entry key="..\:/android_Flie/Feast_Test0301/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

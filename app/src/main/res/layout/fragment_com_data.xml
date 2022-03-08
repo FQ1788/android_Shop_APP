@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ComDataFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#10FFFFFF">
+
+        <TextView
+            android:id="@+id/comNameID"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="47dp"
+            android:gravity="center"
+            android:text="@string/comName"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/com1"
+            app:layout_constraintTop_toBottomOf="@+id/comImageID" />
+
+        <TextView
+            android:id="@+id/comTotalID"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="47dp"
+            android:gravity="center"
+            android:text="@string/total"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/com4"
+            app:layout_constraintTop_toBottomOf="@+id/NumberPickerID" />
+
+        <TextView
+            android:id="@+id/comPriceID"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="47dp"
+            android:gravity="center"
+            android:text="@string/comPrice"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/com2"
+            app:layout_constraintTop_toBottomOf="@+id/comNameID" />
+
+        <TextView
+            android:id="@+id/comNumberID"
+            android:layout_width="117dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="47dp"
+            android:text="@string/comNumber"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comImageID" />
+
+        <ImageView
+            android:id="@+id/comImageID"
+            android:layout_width="297dp"
+            android:layout_height="203dp"
+            android:layout_marginTop="39dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/com3"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/Number"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/com2" />
+
+        <TextView
+            android:id="@+id/com2"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:text="@string/comPrice"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/com1" />
+
+        <TextView
+            android:id="@+id/com4"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="@string/total"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/com3" />
+
+        <TextView
+            android:id="@+id/com1"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="68dp"
+            android:gravity="center"
+            android:text="@string/comName"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comImageID" />
+
+        <Button
+            android:id="@+id/comButtonC"
+            android:layout_width="112dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#00000000"
+            android:text="@string/checkout_button"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/com4" />
+
+        <Button
+            android:id="@+id/buttonAddCartID"
+            android:layout_width="126dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#00000000"
+            android:onClick="addCom"
+            android:text="@string/addShopping_button"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comTotalID" />
+
+        <NumberPicker
+            android:id="@+id/NumberPickerID"
+            android:layout_width="144dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="47dp"
+            android:theme="@style/NumberPickerText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/com3"
+            app:layout_constraintTop_toBottomOf="@+id/comPriceID" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

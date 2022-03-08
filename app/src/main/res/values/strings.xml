@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Feast_Test0301</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="userPage">會員資料</string>
+    <string name="userName">姓名:</string>
+    <string name="email">電子郵件:</string>
+    <string name="tel">電話:</string>
+    <string name="address">地址:</string>
+    <string name="pass">密碼:</string>
+    <string name="addUser">註冊帳號</string>
+    <string name="add">註冊</string>
+    <string name="password_reset">忘記密碼</string>
+    <string name="reset">重新填寫</string>
+    <string name="comName">商品名稱:</string>
+    <string name="comPrice">價格:</string>
+    <string name="comNumber">庫存:</string>
+    <string name="Number">數量:</string>
+    <string name="total">總計:</string>
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="loginPage">會員登入</string>
+    <string name="user_button">會員</string>
+    <string name="checkout_button">結帳</string>
+    <string name="addShopping_button">加入購物車</string>
+    <string name="shopping_button">購物車</string>
+    <string name="home_button">首頁</string>
+    <string name="user_center">會員中心</string>
+    <string name="order_tracking">訂單查詢</string>
+    <string name="revise">修改</string>
+    <string name="item_page_title">美食外送</string>
+    <string name="item_page2_title">外帶自取</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
